@@ -1,7 +1,7 @@
 #!/bin/bash
 
-DNS1="172.16.10.150"
-DNS2="172.16.10.151"
+DNS1="172.16.8.29"
+DNS2="172.16.8.30"
 
 # Obtém a conexão ativa
 CONN=$(nmcli -t -f NAME,DEVICE connection show --active | grep -v ':$' | head -1 | cut -d: -f1)
