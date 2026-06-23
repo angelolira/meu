@@ -30,3 +30,7 @@ cat /etc/resolv.conf
 echo
 echo "Configuração aplicada:"
 nmcli connection show "$CONN" | grep ipv4.dns
+
+nslookup google.com
+nslookup intranet.unicesumar.edu.br
+nslookup portaluniasselvi.com.br
