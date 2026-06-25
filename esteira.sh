@@ -24,3 +24,7 @@ nmcli device show | grep DNS
 
 echo
 cat /etc/resolv.conf
+
+ping -c 1 google.com
+ping -c 1 intranet.unicesumar.edu.br
+ping -c 1 portaluniasselvi.com.br
