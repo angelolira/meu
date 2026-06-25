@@ -32,3 +32,5 @@ echo "Configuração aplicada:"
 nmcli connection show "$CONN" | grep ipv4.dns
 
 ping -c 1 google.com
+ping -c 1 intranet.unicesumar.edu.br
+ping -c 1 portaluniasselvi.com.br
